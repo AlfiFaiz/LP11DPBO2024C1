@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Edit Pasien</title>
+  </head>
+  <body>
+    <h2>Edit Pasien</h2>
+    <form action="EditPasien.php" method="post">
+      <input type="hidden" name="edit_id" value="<?php echo $id; ?>" />
+      <!-- Masukkan bidang-bidang input untuk mengedit data pasien di sini -->
+      <button type="submit" name="submit_edit">Simpan Perubahan</button>
+    </form>
+  </body>
+</html>
